@@ -3,14 +3,12 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <SRVD>
-    <METADATA>
-     <NAME>/DMO/TRAVEL_U</NAME>
-     <VERSION>active</VERSION>
-     <DESCRIPTION>Service Definition for Managing Travels</DESCRIPTION>
-     <SOURCE_ORIGIN_DESCRIPTION>ABAP development tools</SOURCE_ORIGIN_DESCRIPTION>
-     <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>
-     <SRVD_SOURCE_TYPE_DESC>Service Definition</SRVD_SOURCE_TYPE_DESC>
-    </METADATA>
+    <NAME>/DMO/TRAVEL_U</NAME>
+    <DESCRIPTION>Service Definition for Managing Travels</DESCRIPTION>
+    <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+    <SOURCE_ORIGIN_DESCRIPTION>ABAP development tools</SOURCE_ORIGIN_DESCRIPTION>
+    <SRVD_SOURCE_TYPE>S</SRVD_SOURCE_TYPE>
+    <SRVD_SOURCE_TYPE_DESC>Service Definition</SRVD_SOURCE_TYPE_DESC>
    </SRVD>
   </asx:values>
  </asx:abap>
