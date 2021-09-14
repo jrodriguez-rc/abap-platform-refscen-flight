@@ -23,7 +23,7 @@ define view /DMO/I_CustomerDimension
 
       @Semantics.text: true
       @Semantics.name.fullName: true
-      concat(LastName, FirstName) as Name,
+      concat(LastName, FirstName)           as Name,
 
       @Semantics.name.prefix: true
       Title,
@@ -44,7 +44,7 @@ define view /DMO/I_CustomerDimension
       PhoneNumber,
 
       @Semantics.eMail.type: [#PREF,#WORK]
-      EMailAddress,
+      cast( EMailAddress as abap.char(250)) as EMailAddress,
 
       /* Associations */
       _Country

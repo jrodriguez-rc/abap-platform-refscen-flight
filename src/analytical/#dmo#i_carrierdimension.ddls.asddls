@@ -5,14 +5,18 @@
 @EndUserText.label: 'Carrier Dimension'
 
 @Analytics.dataCategory: #DIMENSION
+@Search.searchable: true
 
 define view /DMO/I_CarrierDimension
   as select from /DMO/I_Carrier
 {
 
-      @ObjectModel.text.element: [ 'Name' ]
+      @Search.defaultSearchElement: true
+      @ObjectModel.text.element: ['Name']
   key AirlineID,
 
+      @Search.defaultSearchElement: true
+      @Search.fuzzinessThreshold: 0.7
       @Semantics.text: true
       Name,
 
